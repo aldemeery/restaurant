@@ -9,5 +9,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Water.css framework.
-- Fonts.
+-   Fonts.
+-   Static HTML pages.

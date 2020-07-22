@@ -1,0 +1,181 @@
+:root {
+    --main-dark: #293823;
+    --background: #fef7e7;
+    --main-yellow: #f4d773;
+}
+
+body {
+    background-color: var(--background);
+}
+
+#content {
+    height: 100vh;
+    padding: 100px;
+}
+
+.wrapper {
+    grid-template-rows: 100px auto 100px;
+    box-shadow: 0 0 0 0.5em var(--main-dark);
+    border-radius: 10px;
+    height: 100%;
+    max-width: 1360px;
+    padding: 15px;
+    background: linear-gradient(
+        120deg,
+        var(--background) 65%,
+        var(--main-yellow) 35%
+    );
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+}
+
+.logo-link {
+    display: inline-block;
+    height: 100px !important;
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.nav {
+    width: 50%;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: "Unica One";
+    font-size: 1.8em;
+}
+
+.nav-item-link {
+    text-decoration: none;
+    color: var(--main-dark);
+}
+
+.nav-item-link:hover {
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.home-image {
+    width: 500px;
+}
+
+.home-text {
+    text-align: center;
+}
+
+.home-text .title {
+    font-family: "Unica One";
+    font-size: 6em;
+    font-weight: bold;
+    color: #111;
+    text-shadow: 3px 3px #a5db25;
+}
+
+.home-text .more {
+    font-family: "Comfortaa";
+    font-size: 2em;
+    color: #333;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer-link {
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--main-dark);
+    margin-right: 30px;
+}
+
+.menu {
+    height: 100%;
+}
+
+.category {
+    min-height: 50px;
+    border: 1px solid var(--main-dark);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.category .head {
+    font-family: "Unica One";
+    font-size: 1.2em;
+    border-bottom: 1px solid var(--main-dark);
+}
+
+.category .category-items {
+    margin: 5px 0;
+    list-style-type: none;
+    font-family: "Comfortaa";
+    max-height: 421px;
+    overflow: scroll;
+}
+
+.category-items::-webkit-scrollbar {
+    display: none;
+}
+
+.category-items {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.category .category-item {
+    padding: 5px 0;
+    display: flex;
+    align-items: baseline;
+}
+
+.category .category-item:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.category-item .item-connector {
+    border-bottom: 1px dotted #000;
+    flex: 1 0;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.email {
+    color: var(--main-dark);
+}
+
+@media (min-width: 1160px) {
+    .nav {
+        width: 30%;
+    }
+}
