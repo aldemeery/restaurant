@@ -9,5 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
--   Fonts.
--   Static HTML pages.
+- Fonts.
+- Static HTML pages.
+- Elements and components
+- Routing.

@@ -1,10 +1,11 @@
 {
-    "overrides": [
-        {
-            "files": "*.js",
-            "options": {
-                "singleQuote": true
-            }
-        }
-    ]
+  "overrides": [
+    {
+      "files": "*.{js,ts}",
+      "options": {
+        "singleQuote": true,
+        "tabWidth": 2
+      }
+    }
+  ]
 }
